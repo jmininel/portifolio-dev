@@ -306,6 +306,7 @@ export const LogoLoop = React.memo<LogoLoopProps>(
             {(item as any).node}
           </span>
         ) : (
+          <div className="bg-gray-200 border border-white-300/30 rounded-2xl p-5 bg-linear-to-br from-cyan-500/10 to-transparent shadow-lg hover:scale-105 transition-all duration-300">
           <img
             src={(item as any).src}
             srcSet={(item as any).srcSet}
@@ -318,6 +319,7 @@ export const LogoLoop = React.memo<LogoLoopProps>(
             decoding="async"
             draggable={false}
           />
+          </div>
         );
         const itemAriaLabel = isNodeItem
           ? ((item as any).ariaLabel ?? (item as any).title)
