@@ -15,7 +15,7 @@ export const Header = () => {
   const [active, setActive] = useState("Projeto")
 
   return (
-    <header className="fixed top-0 inset-x-0 z-50 bg-black/80 backdrop-blur-lg">
+    <header className="fixed top-0 inset-x-0 z-50 bg-black/50 backdrop-blur-lg">
       <div className="container mx-auto px-6 md:px-12">
         <div className="flex h-16 items-center justify-between">
 
@@ -43,13 +43,14 @@ export const Header = () => {
                   <li key={link.url} className="relative">
                     <Link
                       href={link.url}
+                      scroll={true}
                       onClick={() => setActive(link.label)}
                       className="relative px-4 py-2 text-sm font-medium text-white"
                     >
                       {isActive && (
                         <motion.span
                           layoutId="nav-indicator"
-                          className="absolute inset-0 rounded-md bg-gradient-to-r from-[#ff00cc] to-[#333399]"
+                          className="absolute inset-0 rounded-md bg-linear-to-r from-[#ff00cc] to-[#333399]"
                           transition={{
                             type: "spring",
                             stiffness: 500,
