@@ -1,36 +1,56 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 💼 Developer Portfolio
 
-## Getting Started
+Um portfólio moderno e responsivo desenvolvido para apresentar minha trajetória como desenvolvedora Front-end, destacando projetos, habilidades técnicas e formas de contato.
 
-First, run the development server:
+## ✨ Destaques
+
+* Interface moderna e responsiva
+* Design focado em experiência do usuário
+* Seção de projetos com informações detalhadas
+* Tecnologias e habilidades organizadas
+* Links para GitHub, LinkedIn e contato
+
+## 🚀 Tecnologias
+
+* Next.js
+* React
+* TypeScript
+* Tailwind CSS
+* Framer Motion
+* React Icons
+
+## 📷 Preview
+
+> Adicione aqui um GIF ou screenshot da página inicial.
+
+## ⚙️ Executando o projeto
 
 ```bash
+# Clone o repositório
+git clone https://github.com/jmininel/portifolio-dev.git
+
+# Acesse a pasta
+cd portifolio-dev
+
+# Instale as dependências
+npm install
+
+# Execute o projeto
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+A aplicação estará disponível em:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```text
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🎯 Objetivo
 
-## Learn More
+Este projeto foi desenvolvido para reunir meus principais trabalhos em um único lugar, demonstrando minhas habilidades em desenvolvimento Front-end, boas práticas de código e criação de interfaces modernas.
 
-To learn more about Next.js, take a look at the following resources:
+## 👩‍💻 Desenvolvido por
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+**Juliana Mininel**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Frontend Developer • React • Next.js • TypeScript
