@@ -21,7 +21,7 @@ Um portfólio moderno e responsivo desenvolvido para apresentar minha trajetóri
 
 ## 📷 Preview
 
-> Adicione aqui um GIF ou screenshot da página inicial.
+![Preview do Portfólio](./public/animation.gif)
 
 ## ⚙️ Executando o projeto
 
@@ -33,10 +33,10 @@ git clone https://github.com/jmininel/portifolio-dev.git
 cd portifolio-dev
 
 # Instale as dependências
-npm install
+pnpm install
 
 # Execute o projeto
-npm run dev
+pnpm run dev
 ```
 
 A aplicação estará disponível em:
