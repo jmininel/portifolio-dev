@@ -7,8 +7,9 @@ import Image from "next/image"
 
 export const Header = () => {
   const navLinks = [
-    { url: "#projeto", label: "Projeto" },
+    
     { url: "#experiencia", label: "Experiencia" },
+    { url: "#projeto", label: "Projeto" },
     { url: "#contato", label: "Contato" },
   ]
 
