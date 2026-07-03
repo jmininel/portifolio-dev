@@ -21,7 +21,7 @@ Um portfólio moderno e responsivo desenvolvido para apresentar minha trajetóri
 
 ## 📷 Preview
 
-![Preview do Portfólio](./public/animation.gif)
+![Preview do Portfólio](./public/animacao.gif)
 
 ## ⚙️ Executando o projeto
 
