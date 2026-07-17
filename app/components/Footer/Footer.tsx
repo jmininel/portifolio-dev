@@ -57,23 +57,19 @@ export const Footer = () => {
   }
   return (
     <footer
-      className="flex flex-col items-center justify-center h-32 bg-black/80 scroll-mt-24"
-      id="contato"
-    >
+      className="flex flex-col items-center justify-center h-32 bg-black/80 scroll-mt-24" id="contato">
       <div className="flex items-center justify-center gap-8 mb-2">
         <Link
           href="https://www.linkedin.com/in/juliana-mininel/"
           target="_blank"
-          className="bg-linear-to-r from-[#ff00cc] to-[#333399] p-4 rounded-md hover:scale-110 transition duration-300 inline-flex"
-        >
+          className="bg-linear-to-r from-[#ff00cc] to-[#333399] p-4 rounded-md hover:scale-110 transition duration-300 inline-flex">
           <FaLinkedin className="text-white text-2xl" />
         </Link>
 
         <Link
           href="https://github.com/jmininel"
           target="_blank"
-          className="bg-linear-to-r from-[#ff00cc] to-[#333399] p-4 rounded-md hover:scale-110 transition duration-300 inline-flex"
-        >
+          className="bg-linear-to-r from-[#ff00cc] to-[#333399] p-4 rounded-md hover:scale-110 transition duration-300 inline-flex">
           <FaGithub className="text-white text-2xl" />
         </Link>
 
@@ -108,8 +104,7 @@ export const Footer = () => {
               </DialogTitle>
 
               <DialogDescription className="mt-3 text-sm leading-6 text-slate-400">
-                Preencha seu nome, e-mail e mensagem. O envio será feito pelo
-                EmailJS.
+                Preencha seu nome, e-mail e mensagem.
               </DialogDescription>
             </DialogHeader>
 
