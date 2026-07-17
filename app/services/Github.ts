@@ -23,7 +23,6 @@ async function fetchGitHub<T>(endpoint: string): Promise<T> {
   const response = await fetch(`${BASE_URL}${endpoint}`, {
     headers: {
       Accept: "application/vnd.github+json",
-      Authorization: `Bearer ${process.env.GITHUB_TOKEN}`,
       "X-GitHub-Api-Version": "2022-11-28",
     },
     next: {
