@@ -13,7 +13,7 @@ export const Header = () => {
     { url: "#contato", label: "Contato" },
   ]
 
-  const [active, setActive] = useState("Projeto")
+  const [active, setActive] = useState("Experiencia")
 
   return (
     <header className="fixed top-0 inset-x-0 z-50 bg-black/50 backdrop-blur-lg">
