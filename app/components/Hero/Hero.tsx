@@ -80,7 +80,7 @@ export const Hero = () => {
             <p className="text-purple-400 text-lg font-medium tracking-wide">
             </p>
 
-            <h1 className="text-5xl lg:text-6xl font-bold leading-tight text-white">
+            <h1 className="sm:inline text-2xl sm:text-base lg:text-5xl font-bold leading-tight text-white">
               Juliana Mininel
             </h1>
 
@@ -105,7 +105,8 @@ export const Hero = () => {
               backgroundColor="transparent"
               wireframes={false}
               gravity={0.56}
-              fontSize="2rem"
+              fontSize="2rem" 
+              className="sm:text-4xl"
               mouseConstraintStiffness={0.9}
             />
           </div>
