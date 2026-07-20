@@ -17,8 +17,8 @@ export const Header = () => {
 
   return (
     <header className="fixed top-0 inset-x-0 z-50 bg-black/50 backdrop-blur-lg">
-      <div className="container mx-auto px-6 md:px-12">
-        <div className="flex h-16 items-center justify-between">
+      <div className="container mx-auto px-4 sm:px-6 md:px-12">
+        <div className="flex h-14 sm:h-16 items-center justify-between">
 
           {/* LOGO + NOME */}
           <div className="flex items-center gap-3 text-white">
@@ -27,16 +27,17 @@ export const Header = () => {
               alt="Logo"
               width={40}
               height={40}
+              className="sm:w-10 sm:h-10"
               priority
             />
-            <span className="font-medium tracking-wide">
-              Juliana Mininel Dev
+            <span className="hidden sm:inline text-sm sm:text-base font-medium tracking-wide">
+              Juliana Mininel
             </span>
           </div>
 
           {/* NAV */}
           <nav>
-            <ul className="flex items-center gap-2">
+           <ul className="flex items-center gap-1 sm:gap-2">
               {navLinks.map((link) => {
                 const isActive = active === link.label
 
@@ -46,8 +47,8 @@ export const Header = () => {
                       href={link.url}
                       scroll={true}
                       onClick={() => setActive(link.label)}
-                      className="relative px-4 py-2 text-sm font-medium text-white"
-                    >
+                      className="relative px-2 py-2 sm:px-4 text-xs sm:text-sm font-medium text-white">
+
                       {isActive && (
                         <motion.span
                           layoutId="nav-indicator"
