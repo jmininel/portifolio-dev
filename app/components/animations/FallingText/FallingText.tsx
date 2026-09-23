@@ -14,6 +14,7 @@ interface FallingTextProps {
   gravity?: number;
   mouseConstraintStiffness?: number;
   fontSize?: string;
+  className?: string;
 }
 
 const FallingText: React.FC<FallingTextProps> = ({

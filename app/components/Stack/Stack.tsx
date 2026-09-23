@@ -19,10 +19,10 @@ const imageLogos = [
 
 export const Stack = () => {
   return (
-    <section className="relative overflow-hidden py-16 lg:py-24">
+    <section className="relative overflow-hidden py-12 lg:py-24">
       <div className="absolute inset-x-0 top-0 h-48 bg-gradient-to-b from-cyan-500/10 via-transparent to-transparent pointer-events-none" />
-      <div className="relative mx-auto max-w-6xl px-6 sm:px-10 lg:px-12">
-        <div className="mb-6 max-w-fit rounded-full border border-cyan-200/15 bg-cyan-500/5 px-4 py-2 text-sm text-cyan-200 shadow-sm shadow-cyan-500/10">
+      <div className="relative mx-auto max-w-6xl px-4 sm:px-6 lg:px-12">
+        <div className="mb-6 max-w-fit rounded-full border border-cyan-200/15 bg-cyan-500/5 px-3 py-2 text-xs sm:px-4 sm:text-sm text-cyan-200 shadow-sm shadow-cyan-500/10">
           Tecnologias que eu uso com confiança
         </div>
 
